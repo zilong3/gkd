@@ -12,7 +12,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: ['@ImageView[desc=null] <<n [vid="ad_container"]'],
+          matches: ['@ImageView[depth=20][desc=null] <<n [vid="ad_container"]'],
           snapshotUrls: ['https://i.gkd.li/i/27481905'],
         },
         {
@@ -22,8 +22,13 @@ export default defineGkdApp({
         },
         {
           key: 2,
-          matches: ['@View[index=2] <<n [vid="main_splash_ad"]'],
+          matches: ['@View[depth=12] <<n [vid="ad_container"]'],
           snapshotUrls: ['https://i.gkd.li/i/27492229'],
+        },
+        {
+          key: 3,
+          matches: ['@TextView[text$="跳过"] <<n [vid="ad_container"]'],
+          snapshotUrls: ['https://i.gkd.li/i/27492782'],
         },
       ],
     },
