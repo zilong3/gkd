@@ -9,16 +9,16 @@ export default defineGkdApp({
       name: '开屏广告',
       matchTime: 5000,
       actionMaximum: 1,
-      snapshotUrls: [
-        'https://i.gkd.li/i/27481905',
-        'https://i.gkd.li/i/27489253',
-      ],
       rules: [
         {
-          matches: [
-            '@ImageView[desc=null] <<n [vid="ad_container"]',
-            '@TextView[text^="跳过"] <<n [vid="ad_container"]',
-          ],
+          key: 1,
+          matches: ['@ImageView[desc=null] <<n [vid="ad_container"]'],
+          snapshotUrls: ['https://i.gkd.li/i/27481905'],
+        },
+        {
+          key: 2,
+          matches: ['@TextView[text^="跳过"] <<n [vid="ad_container"]'],
+          snapshotUrls: ['https://i.gkd.li/i/27489253'],
         },
       ],
     },
