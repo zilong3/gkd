@@ -1,17 +1,17 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.MobileTicket',
-  name: '铁路12306',
+  id: 'com.coolapk.market',
+  name: '酷安',
   groups: [
     {
       key: 1,
       name: '开屏广告',
       matchTime: 10000,
-      snapshotUrls: ['https://i.gkd.li/i/27478746'],
+      snapshotUrls: ['https://i.gkd.li/i/27481905'],
       rules: [
         {
-          matches: ['[vid="fl_adContent_container"] >n [vid="tv_skip"]'],
+          matches: ['@ImageView[desc=null] <<n [vid="ad_container"]'],
         },
       ],
     },
