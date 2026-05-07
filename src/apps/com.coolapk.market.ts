@@ -7,7 +7,8 @@ export default defineGkdApp({
     {
       key: 1,
       name: '开屏广告',
-      matchTime: 10000,
+      matchTime: 5000,
+      actionMaximum: 1,
       snapshotUrls: [
         'https://i.gkd.li/i/27481905',
         'https://i.gkd.li/i/27489253',
