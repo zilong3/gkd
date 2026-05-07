@@ -20,6 +20,11 @@ export default defineGkdApp({
           matches: ['@TextView[text^="跳过"] <<n [vid="ad_container"]'],
           snapshotUrls: ['https://i.gkd.li/i/27489253'],
         },
+        {
+          key: 3,
+          matches: ['@View[index=2] <<n [vid="main_splash_ad"]'],
+          snapshotUrls: ['https://i.gkd.li/i/27492229'],
+        },
       ],
     },
   ],
