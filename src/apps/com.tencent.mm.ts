@@ -15,11 +15,15 @@ export default defineGkdApp({
         'com.tencent.mm.plugin.appbrand.ui.AppBrandUI02',
         'com.tencent.mm.plugin.appbrand.ui.AppBrandUI03',
         'com.tencent.mm.plugin.appbrand.ui.AppBrandUI04',
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI',
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI1',
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI2',
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI3',
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI4',
       ],
       rules: [
         {
           key: 0,
-          actionDelay: 500,
           matches: [
             'FrameLayout > TextView + FrameLayout > TextView[text="跳过"]',
           ],
