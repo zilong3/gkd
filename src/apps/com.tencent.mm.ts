@@ -9,7 +9,7 @@ export default defineGkdApp({
       name: '小程序开屏广告',
       matchTime: 5000,
       actionMaximum: 1,
-      activityIds: ['com.tencent.mm.plugin.appbrand.ui.AppBrandUI01'],
+      activityIds: ['com.tencent.mm.plugin.appbrand.ui.AppBrandUI.*'],
       rules: [
         {
           key: 0,
