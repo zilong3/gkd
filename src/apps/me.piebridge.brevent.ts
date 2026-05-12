@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '黑阈',
   groups: [
     {
-      key: 1,
+      key: 2,
       name: 'ROOT权限申请弹窗',
       matchTime: 3000,
       actionMaximum: 1,

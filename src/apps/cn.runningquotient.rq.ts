@@ -9,6 +9,7 @@ export default defineGkdApp({
       name: '开屏广告',
       matchTime: 5000,
       actionMaximum: 1,
+      activityIds: ['cn.runningquotient.rq.page.entry.AdvertisingActivity'],
       rules: [
         {
           key: 0,
