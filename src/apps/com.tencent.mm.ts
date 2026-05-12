@@ -24,6 +24,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
+          actionDelay: 800,
           matches: [
             'FrameLayout > TextView + FrameLayout > TextView[text="跳过"]',
           ],
