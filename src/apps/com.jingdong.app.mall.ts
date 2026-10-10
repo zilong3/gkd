@@ -5,14 +5,15 @@ export default defineGkdApp({
   name: '京东',
   groups: [
     {
-      key: 0,
+      key: 1,
       name: '开屏广告',
       matchTime: 5000,
       actionMaximum: 1,
       rules: [
         {
-          key: 0,
-          matches: ['@TextView[text$="跳过"] <<n [vid="splash_fragment"]'],
+          fastQuery: true,
+          activityIds: '.MainFrameActivity',
+          matches: '@TextView[text="跳过"]',
           snapshotUrls: [
             'https://i.gkd.li/i/27499693',
             'https://i.gkd.li/i/27499757',

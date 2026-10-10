@@ -5,16 +5,16 @@ export default defineGkdApp({
   name: 'RQrun',
   groups: [
     {
-      key: 0,
+      key: 1,
       name: '开屏广告',
       matchTime: 5000,
       actionMaximum: 1,
-      activityIds: ['cn.runningquotient.rq.page.entry.AdvertisingActivity'],
       rules: [
         {
-          key: 0,
-          matches: ['@TextView[text^="跳过"] <<2 [vid="cons_advertis"]'],
-          snapshotUrls: ['https://i.gkd.li/i/27508774'],
+          fastQuery: true,
+          activityIds: '.page.entry.AdvertisingActivity',
+          matches: '[vid="tv_advertising_countdown"]',
+          snapshotUrls: 'https://i.gkd.li/i/27508774',
         },
       ],
     },
