@@ -14,7 +14,7 @@ export default defineGkdApp({
           fastQuery: true,
           activityIds: '.page.entry.AdvertisingActivity',
           matches: '[vid="tv_advertising_countdown"]',
-          snapshotUrls: 'https://i.gkd.li/i/27508774',
+          snapshotUrls: ['https://i.gkd.li/i/27508774'],
         },
       ],
     },

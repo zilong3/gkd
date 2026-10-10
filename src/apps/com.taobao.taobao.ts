@@ -12,9 +12,10 @@ export default defineGkdApp({
       rules: [
         {
           fastQuery: true,
-          activityIds: 'com.taobao.android.order.bundle.TBOrderSearchOrFilterActivity',
+          activityIds:
+            'com.taobao.android.order.bundle.TBOrderSearchOrFilterActivity',
           matches: '[vid="tv_close"]',
-          snapshotUrls: 'https://i.gkd.li/i/33284691',
+          snapshotUrls: ['https://i.gkd.li/i/33284691'],
         },
       ],
     },

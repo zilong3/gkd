@@ -13,7 +13,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: '.MainFrameActivity',
-          matches: '@TextView[text="跳过"]',
+          matches: 'TextView[text="跳过"]',
           snapshotUrls: [
             'https://i.gkd.li/i/27499693',
             'https://i.gkd.li/i/27499757',
