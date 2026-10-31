@@ -13,8 +13,14 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: 'com.tencent.zone.main.LauncherActivity',
-          matches: 'TextView[text="跳过"]',
+          matches: 'TextView[text$="跳过"]',
           snapshotUrls: ['https://i.gkd.li/i/33922173'],
+        },
+        {
+          fastQuery: true,
+          activityIds: 'com.tencent.zone.main.zm.GameHomeActivity',
+          matches: 'TextView[text$="跳过"]',
+          snapshotUrls: 'https://i.gkd.li/i/34209843',
         },
       ],
     },
